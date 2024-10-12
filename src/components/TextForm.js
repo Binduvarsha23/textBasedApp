@@ -213,16 +213,16 @@ function TextForm(props) {
                 <div className="button-container">
                     <button className="btn btn-primary mx-2 my-2" onClick={handleUpClick}
                     title='selective conversion also there, try it!'>UpperCase</button>
-                    <button className="btn btn-primary mx-2" onClick={handleLClick}
+                    <button className="btn btn-primary mx-2 my-2" onClick={handleLClick}
                      title='selective conversion also there, try it!'>LowerCase</button>
-                    <button className="btn btn-primary mx-2" onClick={handleClear}>Clear</button>
-                    <button className="btn btn-primary mx-2" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
-                    <button className="btn btn-primary mx-2" onClick={handleCopy}>Copy</button>
+                    <button className="btn btn-primary mx-2 my-2" onClick={handleClear}>Clear</button>
+                    <button className="btn btn-primary mx-2 my-2" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+                    <button className="btn btn-primary mx-2 my-2" onClick={handleCopy}>Copy</button>
                     <button className="btn btn-primary mx-2 my-2" onClick={handleDownloadPDF}>Download PDF</button>
-                    <button className="btn btn-primary mx-2" onClick={handleDownloadDOCX}>Download DOCX</button>
-                    <button className="btn btn-primary mx-2" onClick={handleTranslate}>Translate</button>
-                    <button className="btn btn-primary mx-2" onClick={handleUndo}>Undo</button>
-                    <button className="btn btn-primary mx-2" onClick={handleShare}>Share</button>
+                    <button className="btn btn-primary mx-2 my-2" onClick={handleDownloadDOCX}>Download DOCX</button>
+                    <button className="btn btn-primary mx-2 my-2" onClick={handleTranslate}>Translate</button>
+                    <button className="btn btn-primary mx-2 my-2" onClick={handleUndo}>Undo</button>
+                    <button className="btn btn-primary mx-2 my-2" onClick={handleShare}>Share</button>
                 </div>
             </div>
 
